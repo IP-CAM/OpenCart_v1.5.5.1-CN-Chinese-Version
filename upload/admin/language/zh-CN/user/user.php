@@ -15,7 +15,7 @@ $_['column_action']     = '管理';
 $_['entry_username']    = '用户名：';
 $_['entry_password']    = '密码：';
 $_['entry_confirm']     = '确认密码：';
-$_['entry_firstname']   = '名字：';
+$_['entry_firstname']   = '姓名：';
 $_['entry_lastname']    = '姓氏：';
 $_['entry_email']       = '邮箱：';
 $_['entry_user_group']  = '用户群组：';
@@ -29,7 +29,7 @@ $_['error_exists']      = '警告： 用户品已存在！';
 $_['error_username']    = '用户名必须在3至20个字符之间！';
 $_['error_password']    = '密码长度必须在4至20个字符之间！';
 $_['error_confirm']     = '密码和确认密码不一致！';
-$_['error_firstname']   = '名字必须在1至32个字符之间！';
+$_['error_firstname']   = '姓名必须在1至32个字符之间！';
 $_['error_lastname']    = '姓氏必须在1至32个字符之间！';
 $_['error_captcha']     = '验证码输入有误！';
 ?>
