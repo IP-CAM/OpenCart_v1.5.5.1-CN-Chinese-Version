@@ -56,13 +56,13 @@
                 <span class="error"><?php echo $error_firstname; ?></span>
                 <?php } ?></td>
             </tr>
-            <tr>
+            <!--tr>
               <td><span class="required">*</span> <?php echo $entry_lastname; ?></td>
               <td><input type="text" name="lastname" value="<?php echo $lastname; ?>" />
                 <?php if ($error_lastname) { ?>
                 <span class="error"><?php echo $error_lastname; ?></span>
                 <?php } ?></td>
-            </tr>
+            </tr-->
             <tr>
               <td><span class="required">*</span> <?php echo $entry_email; ?></td>
               <td><input type="text" name="email" value="<?php echo $email; ?>" />
@@ -101,13 +101,13 @@
                 <span class="error"><?php echo $error_payment_firstname; ?></span>
                 <?php } ?></td>
             </tr>
-            <tr>
+            <!--tr>
               <td><span class="required">*</span> <?php echo $entry_lastname; ?></td>
               <td><input type="text" name="payment_lastname" value="<?php echo $payment_lastname; ?>" />
                 <?php if ($error_payment_lastname) { ?>
                 <span class="error"><?php echo $error_payment_lastname; ?></span>
                 <?php } ?></td>
-            </tr>
+            </tr-->
             <tr>
               <td><?php echo $entry_company; ?></td>
               <td><input type="text" name="payment_company" value="<?php echo $payment_company; ?>" /></td>
@@ -192,13 +192,13 @@
                 <span class="error"><?php echo $error_shipping_firstname; ?></span>
                 <?php } ?></td>
             </tr>
-            <tr>
+            <!--tr>
               <td><span class="required">*</span> <?php echo $entry_lastname; ?></td>
               <td><input type="text" name="shipping_lastname" value="<?php echo $shipping_lastname; ?>" />
                 <?php if ($error_shipping_lastname) { ?>
                 <span class="error"><?php echo $error_shipping_lastname; ?></span>
                 <?php } ?></td>
-            </tr>
+            </tr-->
             <tr>
               <td><?php echo $entry_company; ?></td>
               <td><input type="text" name="shipping_company" value="<?php echo $shipping_company; ?>" /></td>

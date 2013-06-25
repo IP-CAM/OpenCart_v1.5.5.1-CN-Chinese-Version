@@ -1172,10 +1172,10 @@ class ControllerSaleOrder extends Controller {
       		$this->error['firstname'] = $this->language->get('error_firstname');
     	}
 
-    	if ((utf8_strlen($this->request->post['lastname']) < 1) || (utf8_strlen($this->request->post['lastname']) > 32)) {
+    	/*if ((utf8_strlen($this->request->post['lastname']) < 1) || (utf8_strlen($this->request->post['lastname']) > 32)) {
       		$this->error['lastname'] = $this->language->get('error_lastname');
     	}
-
+*/
     	if ((utf8_strlen($this->request->post['email']) > 96) || (!preg_match('/^[^\@]+@.*\.[a-z]{2,6}$/i', $this->request->post['email']))) {
       		$this->error['email'] = $this->language->get('error_email');
     	}
@@ -1188,15 +1188,15 @@ class ControllerSaleOrder extends Controller {
       		$this->error['payment_firstname'] = $this->language->get('error_firstname');
     	}
 
-    	if ((utf8_strlen($this->request->post['payment_lastname']) < 1) || (utf8_strlen($this->request->post['payment_lastname']) > 32)) {
+    /*	if ((utf8_strlen($this->request->post['payment_lastname']) < 1) || (utf8_strlen($this->request->post['payment_lastname']) > 32)) {
       		$this->error['payment_lastname'] = $this->language->get('error_lastname');
     	}
-
+	*/
     	if ((utf8_strlen($this->request->post['payment_address_1']) < 3) || (utf8_strlen($this->request->post['payment_address_1']) > 128)) {
       		$this->error['payment_address_1'] = $this->language->get('error_address_1');
     	}
 
-    	if ((utf8_strlen($this->request->post['payment_city']) < 3) || (utf8_strlen($this->request->post['payment_city']) > 128)) {
+    	if ((utf8_strlen($this->request->post['payment_city']) < 2) || (utf8_strlen($this->request->post['payment_city']) > 128)) {
       		$this->error['payment_city'] = $this->language->get('error_city');
     	}
 		
@@ -1253,15 +1253,15 @@ class ControllerSaleOrder extends Controller {
 				$this->error['shipping_firstname'] = $this->language->get('error_firstname');
 			}
 	
-			if ((utf8_strlen($this->request->post['shipping_lastname']) < 1) || (utf8_strlen($this->request->post['shipping_lastname']) > 32)) {
+	/*		if ((utf8_strlen($this->request->post['shipping_lastname']) < 1) || (utf8_strlen($this->request->post['shipping_lastname']) > 32)) {
 				$this->error['shipping_lastname'] = $this->language->get('error_lastname');
 			}
-			
+		*/	
 			if ((utf8_strlen($this->request->post['shipping_address_1']) < 3) || (utf8_strlen($this->request->post['shipping_address_1']) > 128)) {
 				$this->error['shipping_address_1'] = $this->language->get('error_address_1');
 			}
 	
-			if ((utf8_strlen($this->request->post['shipping_city']) < 3) || (utf8_strlen($this->request->post['shipping_city']) > 128)) {
+			if ((utf8_strlen($this->request->post['shipping_city']) < 2) || (utf8_strlen($this->request->post['shipping_city']) > 128)) {
 				$this->error['shipping_city'] = $this->language->get('error_city');
 			}
 	
@@ -2284,7 +2284,7 @@ class ControllerSaleOrder extends Controller {
 			if (!empty($this->request->files['file']['name'])) {
 				$filename = html_entity_decode($this->request->files['file']['name'], ENT_QUOTES, 'UTF-8');
 				
-				if ((utf8_strlen($filename) < 3) || (utf8_strlen($filename) > 128)) {
+				if ((utf8_strlen($filename) < 2) || (utf8_strlen($filename) > 128)) {
 					$json['error'] = $this->language->get('error_filename');
 				}	  	
 				
