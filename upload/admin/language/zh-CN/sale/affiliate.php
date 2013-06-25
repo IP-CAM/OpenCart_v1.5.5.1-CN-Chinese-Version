@@ -56,7 +56,7 @@ $_['entry_description']         = '描述：';
 // Error
 $_['error_permission']          = '警告： 您没有权限更改加盟会员！';
 $_['error_exists']              = '警告： 此E-Mail地址已注册！';
-$_['error_firstname']           = '名字必须在1至32个字符之间！';
+$_['error_firstname']           = '姓名必须在1至32个字符之间！';
 $_['error_lastname']            = '姓氏必须在1至32个字符之间！';
 $_['error_email']               = '邮箱地址无效！';
 $_['error_telephone']           = '电话号码必须在3至32个字符之间！';

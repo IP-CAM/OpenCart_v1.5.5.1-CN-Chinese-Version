@@ -17,7 +17,7 @@ $_['entry_name']             = '国家名称：';
 $_['entry_iso_code_2']       = 'ISO 代码 (2)：';
 $_['entry_iso_code_3']       = 'ISO 代码 (3)：';
 $_['entry_address_format']   = '地址格式：<br /><span class="help">
-姓氏 = {firstname}<br />
+姓名 = {firstname}<br />
 名字 = {lastname}<br />
 公司 = {company}<br />
 地址 1 = {address_1}<br />

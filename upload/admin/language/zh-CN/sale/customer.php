@@ -28,7 +28,7 @@ $_['column_total']          = '总账户数';
 $_['column_action']         = '管理';
 
 // Entry
-$_['entry_firstname']       = '名字：';
+$_['entry_firstname']       = '姓名：';
 $_['entry_lastname']        = '姓氏：';
 $_['entry_email']           = 'E-Mail：';
 $_['entry_telephone']       = '电话：';
@@ -57,7 +57,7 @@ $_['entry_points']          = '积分：<br /><span class="help">使用'-'来扣
 $_['error_warning']         = '警告： 请认真查看错误信息！';
 $_['error_permission']      = '警告： 您没有权限更改客户设置！';
 $_['error_exists']          = '警告： E-Mail地址已存在！';
-$_['error_firstname']       = '名字必须在1至32个字符之间！';
+$_['error_firstname']       = '姓名必须在1至32个字符之间！';
 $_['error_lastname']        = '姓氏必须在1至32个字符之间！';
 $_['error_email']           = '邮箱地址无效！';
 $_['error_telephone']       = '电话号码必须在3至32个字符之间！';

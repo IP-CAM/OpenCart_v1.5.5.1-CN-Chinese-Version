@@ -27,7 +27,7 @@ $_['column_customer']              = '客户名称';
 $_['column_status']                = '状态';
 $_['column_date_added']            = '订单日期';
 $_['column_total']                 = '总计';
-$_['column_firstname']             = '名字';
+$_['column_firstname']             = '姓名';
 $_['column_lastname']              = '姓氏';
 $_['column_action']                = '管理';
 
