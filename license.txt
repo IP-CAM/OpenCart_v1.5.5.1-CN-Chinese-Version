@@ -3,6 +3,12 @@ Tue, 2007-10-23 03:13 — nelson
 GNU GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
 
+==============================================================
+/*              OpenCartÖĞÎÄ°æÈ¨ËµÃ÷                         */
+/*ÖĞÎÄ°æÓÉopencartÖĞÎÄÍÅ¶Ó¶À¼Ò×«Ğ´·¢²¼£¬°æÈ¨¹éopencart.cnËùÓĞ */
+/* ÖĞÎÄ°æ£¬¸ù¾İÔ­°æĞŞ¸Ä¶øÀ´£¬×ªÔØÇë×¢Ã÷³ö´¦                  */
+===============================================================
+
 Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
 
 Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
