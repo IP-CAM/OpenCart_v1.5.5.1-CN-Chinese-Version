@@ -58,7 +58,7 @@ class ModelAccountCustomer extends Model {
 			$message  = $this->language->get('text_signup') . "\n\n";
 			$message .= $this->language->get('text_website') . ' ' . $this->config->get('config_name') . "\n";
 			$message .= $this->language->get('text_firstname') . ' ' . $data['firstname'] . "\n";
-			$message .= $this->language->get('text_lastname') . ' ' . $data['lastname'] . "\n";
+			//$message .= $this->language->get('text_lastname') . ' ' . $data['lastname'] . "\n";
 			$message .= $this->language->get('text_customer_group') . ' ' . $customer_group_info['name'] . "\n";
 			
 			if ($data['company']) {
